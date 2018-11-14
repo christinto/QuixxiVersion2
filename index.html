@@ -1,0 +1,209 @@
+<html>
+  <head>
+    <!-- Import Google Icon Font -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Import materialize.css -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+    <!-- Font awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"
+      integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Let browser know website is optimized for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quixxi Connect</title>
+  </head>
+
+  <!-- Navbar section -->
+  <body>
+    <div class="navbar-fixed">
+      <nav class="grey lighten-1">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" data-activates="mobile-nav" class="button-collapse"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul class="left top-level black-text hide-on-med-and-down">
+              <li><a class="quixxi" href="#quixxi">Quixxi Connect</a></li>
+              <li><a href="#transaction">Transactions</a></li>
+              <li><a href="#listings">Listings</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Search Section -->
+    <nav class="white">
+      <div class="nav-wrapper">
+        <ul class="hide-on-med-and-down left">
+          <li>
+            <div class="center row">
+              <div class="col s12 ">
+                <div class="row" id="topbarsearch">
+                  <div class="input-field col s12 ">
+                    <i class="black-text material-icons prefix">search</i>
+                    <input
+                      type="text"
+                      placeholder="Search Quixxi User..."
+                      id="autocomplete-input"
+                      class="autocomplete black-text "
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <ul class="hide-on-med-and-down right">
+          <li>
+            <div class="col s12">
+              <div class="row">
+                <div class="place-below">
+                  <p class="black-text">
+                    Email: sanjay@gmail.com <span>Click here to</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Send crypto form -->
+    <div class="cryptorow">
+      <div class="col s12 m6 l3">
+        <div class="container">
+          <p class="grey-text ">Send Crypto</p>
+          <div class="input-field">
+            <input id="email_hash" type="text" class="validate" />
+            <label for="email_hash">Email or hash</label>
+          </div>
+          <div class="input-field">
+            <input id="amount" type="text" class="validate" />
+            <label for="amount">Amount</label>
+            <!--
+              <select class="select_value">
+
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+
+
+
+
+              </select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <label>Materialize Select</label>
+            -->
+            <div class="input-field">
+              <button
+                id="amount"
+                class="btn waves-effect waves-light black"
+                class="validate"
+              >
+                Send
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Transactions -->
+
+    <section class="section section-transaction scrollspy">
+      <span class="grey-text transact "><b>Transactions </b></span>
+      <div class="row ">
+        <div class="wrapper">
+          <div class="col s8 m2 ">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              alias sit placeat. Corporis quae libero praesentium dignissimos
+              voluptatem. Dicta, exercitationem!
+            </p>
+          </div>
+          <div class="col s8 m2">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              alias sit placeat. Corporis quae libero praesentium dignissimos
+              voluptatem. Dicta, exercitationem!
+            </p>
+          </div>
+          <div class="col s8 m2">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              alias sit placeat. Corporis quae libero praesentium dignissimos
+              voluptatem. Dicta, exercitationem!
+            </p>
+          </div>
+          <div class="col s8 m2">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              alias sit placeat. Corporis quae libero praesentium dignissimos
+              voluptatem. Dicta, exercitationem!
+            </p>
+          </div>
+          <div class="col s8 m2">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              alias sit placeat. Corporis quae libero praesentium dignissimos
+              voluptatem. Dicta, exercitationem!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Right panel -->
+
+    <!-- Margin for the page -->
+
+    <!-- Import jQuery before materialize.js -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        // Custom JS & jQuery here
+      });
+    </script>
+  </body>
+</html>

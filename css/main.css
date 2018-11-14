@@ -1,0 +1,35 @@
+.section-search .left {
+  padding-left: 10px;
+}
+
+.place-below {
+  margin-right: 80px;
+}
+
+.formcontainer {
+  position: relative;
+  right: 160px;
+}
+.cryptorow {
+  position: absolute;
+  height: 90px;
+  margin: 20px;
+  width: 380px;
+}
+.section-transaction {
+  position: absolute;
+
+  top: 450px;
+  width: 70%;
+  height: 400px;
+  margin-left: 80px;
+}
+body {
+  margin-bottom: 80em;
+}
+.transact {
+  margin-left: 0px;
+  padding-bottom: 5px;
+}
+.wrapper {
+}
