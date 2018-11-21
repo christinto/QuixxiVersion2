@@ -6,6 +6,18 @@
   margin-right: 80px;
 }
 
+.email-id {
+  background: grey;
+  padding: 0px;
+  margin: 0px;
+
+
+}
+
+.right-column {
+  height: 600px;
+}
+
 .formcontainer {
   position: relative;
   right: 160px;
@@ -27,15 +39,9 @@
   margin-left: 80px;
 }
 
-body {
-  margin-bottom: 80em;
+body {}
 
-}
 
-.transact {
-  margin-left: 0px;
-  padding-bottom: 5px;
-}
 
 .section-transaction {
   margin-top: 80px;
@@ -58,23 +64,20 @@ ul#myfields li {
 
 }
 
+.side-nav {
+  background: black;
+}
+
 .row-1 {
   margin-bottom: 0px;
 }
 
-.section-right {
-  float: right;
-
-  width: 25%;
-  position: relative;
-  left: 50%;
-  margin-right: 320px;
-  padding: 10px;
-  margin-top: 5px;
-  padding-left: 30px;
-  padding-top: 10px;
-}
+.section-right {}
 
 a:hover {
   font-weight: bold;
+}
+
+.striped {
+  margin-bottom: 50px;
 }
